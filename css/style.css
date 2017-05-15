@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	margin-top: 0px;
+	font-family: 'Muli', sans-serif;
+}
+/* navigation bar styling */
+nav {
+	background-color:#034642;
+	width: 100%;
+	height: 50px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	width:80px;
+	float: left;
+	text-align:center;
+}
+
+a {
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	padding: 15px;
+	color: white;
+	width: 80px;
+	font-size: 18px;
+	font-weight:300;
+}
+a:hover {
+	color: #B4A76C;
+}
+/* end navigation bar styling */
