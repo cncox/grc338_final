@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	margin: 0px;
+	border-collapse:collapse;
 	margin-top: 0px;
 	font-family: 'Muli', sans-serif;
 	background-image:url(../images/panorama_pool.jpg);
@@ -14,8 +14,8 @@ nav {
 	background-color:#034642;
 	width: 100%;
 	height: 55px;
-	margin-top:opx;
-}
+	margin:none; 
+	}
 
 ul {
 	list-style-type:none;
@@ -54,12 +54,21 @@ h1 {
 	font-size: 70px;
 	line-height: 20px;
 }
-.background {
-	background-color: rgba(181,181,181,0.56);
-	}
 header {
-	margin-top: 150px;
+	/*margin-top: 150px;
 	width: 100%;
-	height: 500px;
+	height: 500px;*/
+	background-color: rgba(181,181,181,0.56);
+    width: 100%;
+    height: 100px;
 	
+}
+p {
+	text-align:center;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 20px;
+	margin-top:200px;
+	width: 500px;
+	color:white;
 }
