@@ -88,28 +88,40 @@ header {
 }
 .captions{
 	width:100%;
+	font-size: 1em;
 }
 
+.row{
+	height: 400px;
+	
+}
 .post_1{
 	margin: 20px;
-	float: left;
+	float:left;
 	width: 30%;
 }
 
 .post_2{
 	margin: 20px;
-	float: left;
+	float:left;
 	width: 30%;
 }
 
-.post_3{
+.post_3{    /*why does this post always jump down?*/
 	margin: 20px;
-	float: left;
+	float:left;
 	width: 30%;
+	
 }
 
 .post_4{
 	margin: 20px;
+	float:left;
 	clear: both;
+	width: 30%;
+}
+.post_5{
+	margin: 20px;
+	float:left;
 	width: 30%;
 }
