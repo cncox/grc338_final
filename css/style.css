@@ -3,8 +3,11 @@
 
 body{
 	border-collapse:collapse;
-	margin-top: 0px;
+	margin: 0px;
 	font-family: 'Muli', sans-serif;
+}
+.index{
+	
 	background-image:url(../images/panorama_pool);
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -49,13 +52,15 @@ h2 {
 	text-align:center;
 	font-weight: 700;
 	font-size: 45px;
-	line-height: 20px;
+	line-height: 45px;
+	margin: 40px 20px 10px 20px;
 }
 h1 {
 	text-align:center;
 	font-weight: 900;
 	font-size: 70px;
-	line-height: 70px;
+	line-height: 75px;
+	margin: 10px;
 }
 header {
 	margin: 0px;
@@ -63,13 +68,48 @@ header {
 	height: 100%;
 	
 }
-.intro {
+.intro {   /*need to figure out how to do a max width still aligned center*/
 	text-align:center;
 	font-weight: 300;
 	font-size: 24px;
-	line-height: 20px;
+	line-height: 25px;
 	padding-top: 20px;
-	/*max-width: 500px;*/
+	max-width: 500px;
 	color: #2A2A2A;
-	position: center center;
+	display: block;
+	margin: 0 auto;
+	/*position: center center;*/
+}
+
+/* styling for blog page */
+.blog_photos {
+	width:100%;
+	max-height: inherit;
+}
+.captions{
+	width:100%;
+}
+
+.post_1{
+	margin: 20px;
+	float: left;
+	width: 30%;
+}
+
+.post_2{
+	margin: 20px;
+	float: left;
+	width: 30%;
+}
+
+.post_3{
+	margin: 20px;
+	float: left;
+	width: 30%;
+}
+
+.post_4{
+	margin: 20px;
+	clear: both;
+	width: 30%;
 }
