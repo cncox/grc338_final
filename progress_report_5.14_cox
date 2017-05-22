@@ -1,0 +1,23 @@
+commit 48f90d6a78f13ad4772761f28a6b98b82c546bb8
+Author: cncox <cncox@calpoly.edu>
+Date:   Mon May 15 12:00:01 2017 -0700
+
+    add paragraph text
+
+commit 7cbc57c76138dfaa3f07032e17e5fba6fa4833e0
+Author: cncox <cncox@calpoly.edu>
+Date:   Mon May 15 11:39:34 2017 -0700
+
+    add background image and text
+
+commit 9b9c177ad85f155860ddee95373decfd8333d6c8
+Author: cncox <cncox@calpoly.edu>
+Date:   Mon May 15 10:47:34 2017 -0700
+
+    create and style navigation bar
+
+commit dd970d102f2d242ee048d56d2ecc617edab3e24e
+Author: cncox <cncox@calpoly.edu>
+Date:   Mon May 15 09:40:05 2017 -0700
+
+    create website structure
