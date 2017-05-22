@@ -6,6 +6,14 @@ body{
 	margin: 0px;
 	font-family: 'Muli', sans-serif;
 }
+footer{
+	background-color: #034642;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	position:absolute;
+	bottom: 0;
+}
 .index{
 	
 	background-image:url(../images/panorama_pool);
