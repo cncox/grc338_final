@@ -125,3 +125,30 @@ header {
 	float:left;
 	width: 30%;
 }
+
+/*styling for schedule page */
+table{
+	margin: 0 auto;
+	width: 90%;
+	border-collapse: collapse;
+	
+}
+
+th{
+	background-color:#034642;
+	color: white;
+	text-align: left;
+	font-weight: 700;
+	padding: 5px;
+}
+td {
+	padding: 5px;
+}
+tr:nth-child(2n) {
+	background-color: hsla(176,94%,14%,0.23)
+}
+
+.month {
+	background-color:hsla(49,32%,56%,0.23) !important;
+	font-weight:700;
+}
