@@ -33,6 +33,13 @@ footer{
 	padding: 0px;
 }
 
+.footer_icon_top { /* need to figure out how to align this right*/
+	width:20px;
+	margin: 10px 10px 0px 0px;
+	padding: 0px;
+	
+}
+
 a img {
 	width: 30px;
 	display: inline-block;
@@ -146,15 +153,12 @@ header {
 	width:100%;
 	max-height: inherit;
 }
+
 .captions{
 	width:100%;
 	font-size: 1em;
 }
 
-/*/*.row{
-	height: 400px;
-	
-}*/
 .post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20 {
 	height: 500px;
 	margin: 20px;
@@ -162,113 +166,9 @@ header {
 	width: 30%;
 }
 
-/*.post_2{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_3{    
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_4{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-.post_5{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-.post_6{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-.post_7{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_8{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_9{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_10{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_12{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_13{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_14{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_15{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_16{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_17{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_18{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-
-.post_19{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-.post_20{
-	margin: 20px;
-	float:left;
-	width: 30%;
-}
-*/
 /*styling for schedule page */
 table{
-	margin: 0 auto;
+	margin:20px auto auto auto ;
 	width: 90%;
 	border-collapse: collapse;
 	
