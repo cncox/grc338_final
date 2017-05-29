@@ -3,7 +3,7 @@
 
 body{
 	border-collapse:collapse;
-	margin: 0px;
+	margin: 0px 0px 100px 0px;
 	font-family: 'Muli', sans-serif;
 }
 
@@ -149,6 +149,10 @@ header {
 }
 
 /* styling for blog page */
+.blog {
+	padding: 0px 75px;
+}
+
 .blog_photos {
 	width:100%;
 	max-height: inherit;
@@ -159,11 +163,15 @@ header {
 	font-size: 1em;
 }
 
-.post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20 {
-	height: 500px;
+.post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21 {
+	height: 450px;
 	margin: 20px;
 	float:left;
 	width: 30%;
+}
+
+.post_1 {
+	margin-bottom: 75px;
 }
 
 /*styling for schedule page */
