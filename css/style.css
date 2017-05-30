@@ -200,3 +200,20 @@ tr:nth-child(2n) {
 	background-color:hsla(49,32%,56%,0.23) !important;
 	font-weight:700;
 }
+
+/* styling for roster page */
+figure {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin: 25px;
+}
+figure img {
+	width: 100%
+}
+figcaption {
+	font-size: 14px;
+}
+span{
+	font-weight: 600;
+}
