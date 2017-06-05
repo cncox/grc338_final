@@ -3,8 +3,9 @@
 
 body{
 	border-collapse:collapse;
-	margin: 0px 0px 100px 0px;
+	margin: 0px;
 	font-family: 'Muli', sans-serif;
+	background-color: white;
 }
 
 /* footer styling */
@@ -74,18 +75,19 @@ p {
 }
 /* navigation bar styling */
 nav {
-/*	background-color:#D5D5D5;*/
-	width: 100%;
+	/*background-color:#;*/
+	width:100%;
 	height: 55px;
-	margin:none; 
+	margin: 10px 10px 6px 10px; 
 	overflow:hidden;
-	border-bottom: thin #000000;
+
 	}
 
 ul {
 	list-style-type:none;
 	margin-top: 0px;
 	padding: 0px;
+
 }
 
 li {
@@ -93,6 +95,8 @@ li {
 	float: left;
 	text-align:left;
 	margin:0px;
+	
+		
 }
 
 a {
@@ -111,6 +115,13 @@ a:hover {
 	color: #B4A76C;
 }
 
+hr {
+	color: hsla(176,94%,14%,1);
+	background-color: hsla(176,94%,14%,1);
+	height: 5px;
+	width: 100%;
+
+}
 /* end navigation bar styling */
 
 h2 {
@@ -153,24 +164,29 @@ header {
 
 /* styling for blog page */
 .blog {
-	padding: 0px 75px;
+	padding: 0px 50px;
+	display:block;
+	text-align: center;
+	width: 95%;
 }
 
 .blog_photos {
 	width:100%;
-	max-height: inherit;
+	max-height: auto;
 }
 
 .captions{
 	width:100%;
 	font-size: 1em;
+	padding-bottom: 20px;
 }
 
 .post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21 {
-	height: 450px;
-	margin: 20px;
+	height: 395px;
+	margin: 10px;
 	float:left;
 	width: 30%;
+	max-width: 340px;
 }
 
 .post_1 {
@@ -210,7 +226,7 @@ figure {
 	display: inline-block;
 	float: left;
 	width: 15%;
-	margin: 15px 0px 0px 15px;
+	margin: 15px;
 }
 figure img {
 	width: 100%
@@ -224,10 +240,26 @@ span{
 	font-weight: 600;
 }
 
+/* styles for screen 800px and lower */
+@media only screen and (max-width: 800px){
+
+	/*blog page*/
+.blog{
+		padding: 15px;
+	}	
+	
+.post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21
+	{
+	width: 40%;
+	height: 335px;
+	font-size: 14px;
+	
+	}
+}
 /* styles for screen 480px and lower */
 @media screen and (max-width: 480px){
+
 /*home page*/
-	
 	header{
 		height: 300px;
 	}
@@ -239,8 +271,10 @@ span{
 	
 .post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21
 	{
+
 	width: 140px;
-	height: 285px;
+	height: 215px;
+	font-size: 12px;
 		
 	}
 
