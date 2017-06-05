@@ -105,11 +105,14 @@ a {
 	font-size: 18px;
 	font-weight:300;
 }
+
+
 a:hover {
 	color: #B4A76C;
-/*	text-shadow: 10px 10px #0000;*/
 }
+
 /* end navigation bar styling */
+
 h2 {
 	text-align:center;
 	font-weight: 700;
@@ -192,12 +195,13 @@ th{
 td {
 	padding: 5px;
 }
-tr:nth-child(2n) {
+tr {
 	background-color: hsla(176,94%,14%,0.23)
 }
 
 .month {
-	background-color:hsla(49,32%,56%,0.23) !important;
+	background-color:hsla(49,32%,56%,.23) !important;
+	color: #000000;
 	font-weight:700;
 }
 
@@ -205,15 +209,46 @@ tr:nth-child(2n) {
 figure {
 	display: inline-block;
 	float: left;
-	width: 20%;
-	margin: 25px;
+	width: 15%;
+	margin: 15px 0px 0px 15px;
 }
 figure img {
 	width: 100%
 }
 figcaption {
-	font-size: 14px;
+	font-size: 12px;
+	height: 3em;
+
 }
 span{
 	font-weight: 600;
+}
+
+/* styles for screen 480px and lower */
+@media screen and (max-width: 480px){
+/*home page*/
+	
+	header{
+		height: 300px;
+	}
+	
+/*blog page*/
+.blog{
+		padding: 5px;
+	}	
+	
+.post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21
+	{
+	width: 140px;
+	height: 285px;
+		
+	}
+
+/*roster page*/	
+	figure{
+		width: 30%;
+		margin: 5px;
+	}
+	
+	
 }
