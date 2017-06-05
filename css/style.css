@@ -65,6 +65,13 @@ a img {
 	float: left;
 
 }
+
+p a {
+	font-size: 8px;
+	text-align: left;
+	color:dimgray;
+	
+}
 /* finish footer editing */
 
 .index{
@@ -81,9 +88,6 @@ p {
 	padding: 0px;
 }
 
-.photo_credit{
-	margin-bottom: 300px;
-}
 /* navigation bar styling */
 nav {
 	font-family: 'News Cycle', sans-serif;
@@ -203,7 +207,7 @@ header {
 }
 
 .post_1 {
-	margin-bottom: 75px;
+	margin-bottom: 100px;
 }
 
 /*styling for schedule page */
@@ -225,11 +229,11 @@ td {
 	padding: 5px;
 }
 tr {
-	background-color: hsla(176,94%,14%,0.23)
+	background-color: hsla(134,30%,81%,1.00)
 }
 
 .month {
-	background-color:hsla(49,32%,56%,.23) !important;
+	background-color:hsla(54,59%,83%,1.00) !important;
 	color: #000000;
 	font-weight:700;
 }
@@ -251,6 +255,9 @@ figcaption {
 }
 span{
 	font-weight: 600;
+}
+.roster_bottom {
+	margin-bottom: 100px;
 }
 
 /* styles for screen 800px and lower */
