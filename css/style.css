@@ -5,11 +5,15 @@ body{
 	border-collapse:collapse;
 	margin: 0px;
 	font-family: 'Muli', sans-serif;
-	background-color: white;
+	background-image:url(../images/texture_green.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
 }
 
 /* footer styling */
 footer{
+	font-family: 'News Cycle', sans-serif;
 	background-color: #034642;
 	color: white;
 	padding: 5px;
@@ -32,12 +36,15 @@ footer{
 	width:30px;
 	margin: 10px 10px 0px 0px;
 	padding: 0px;
+	
 }
 
-.footer_icon_top { /* need to figure out how to align this right*/
+.footer_icon_top { /* aligned right*/
 	width:20px;
 	margin: 10px 10px 0px 0px;
 	padding: 0px;
+	display: block;
+	float:right;
 	
 }
 
@@ -72,6 +79,10 @@ a img {
 p {
 	margin: 0px;
 	padding: 0px;
+}
+
+.photo_credit{
+	margin-bottom: 300px;
 }
 /* navigation bar styling */
 nav {
@@ -161,7 +172,7 @@ header {
 	color: #2A2A2A;
 	display: block;
 	margin: 0 auto;
-	/*position: center center;*/
+
 }
 
 /* styling for blog page */
@@ -169,7 +180,7 @@ header {
 	padding: 0px 50px;
 	display:block;
 	width: 95%;
-	left: 50%;
+	position: center center;
 }
 
 .blog_photos {
