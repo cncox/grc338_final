@@ -3,12 +3,14 @@
 
 body{
 	border-collapse:collapse;
-	margin: 0px;
+	display: block;
+	margin: 0px auto;
 	font-family: 'Muli', sans-serif;
 	background-image:url(../images/texture_green.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
+	z-index: 1;
 }
 
 /* footer styling */
@@ -21,6 +23,7 @@ footer{
 	height: 65px;
 	position:fixed;
 	bottom: 0;
+	z-index: 10;
 }
 
 .footer_text {
@@ -93,7 +96,7 @@ nav {
 	font-family: 'News Cycle', sans-serif;
 	width:100%;
 	height: 55px;
-	margin: 10px 10px 6px 10px; 
+	margin: 10px 0px 6px 0px; 
 	overflow:hidden;
 
 	}
@@ -146,7 +149,7 @@ h2 {
 	font-size: 45px;
 	line-height: 40px;
 	margin: 40px 20px 10px 20px;
-		top: 50%;
+	top: 50%;
 	bottom: 50%;
 }
 nav+h2 {
@@ -181,29 +184,61 @@ header {
 
 /* styling for blog page */
 .blog {
-	padding: 0px 50px;
-	display:block;
-	width: 95%;
-	position: center center;
+	margin:20px auto 100px auto ;
+	width: 80%;
+	
 }
 
-.blog_photos {
+.blog_photos_1, .blog_photos_2, .blog_photos_3, .blog_photos_4, .blog_photos_5, .blog_photos_6, .blog_photos_7, .blog_photos_8, .blog_photos_9, .blog_photos_10, .blog_photos_11, .blog_photos_12, .blog_photos_13, .blog_photos_14, .blog_photos_15, .blog_photos_16, .blog_photos_17, .blog_photos_18, .blog_photos_19, .blog_photos_20, .blog_photos_21 {
 	width:100%;
 	max-height: auto;
 }
 
-.captions{
-	width:100%;
-	font-size: 1em;
-	padding-bottom: 20px;
+.captions_1, .captions_2, .captions_3, .captions_4, .captions_5, .captions_6, .captions_7, .captions_8, .captions_9, .captions_10, .captions_11, .captions_12, .captions_12, .captions_13, .captions_14, .captions_15, .captions_16, .captions_17, .captions_18, .captions_19, .captions_20, .captions_21 {
+	width:75%;
+	height: 50%;
+	font-size: 1.5em;
+	opacity: 0;
+	color: black;
+ 	position: absolute;
+ 	top: 25%;
+	left: 15%;
+}
+
+.container_1, .container_2, .container_3, .container_4, .container_5, .container_6, .container_7, .container_8, .container_9, .container_10,.container_11, .container_12, .container_13, .container_14, .container_15, .container_16, .container_17, .container_18, .container_19, .container_20, .container_21 {
+	 position: relative;
+}
+
+/*hover for all posts */
+.container_21:hover .blog_photos_21
+{
+  opacity: 0.3;
+}
+
+.container_21:hover .captions_21
+{
+  opacity:1;
+}
+
+div + div:hover  img
+{
+  opacity:.3;
+	z-index: 3;
+}
+
+ div + div:hover img + p
+{
+  	opacity:1 ;
+	z-index:9;
 }
 
 .post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21 {
-	height: 395px;
+	height: 340px;
 	margin: 10px;
 	float:left;
 	width: 30%;
 	max-width: 340px;
+	position: relative;
 }
 
 .post_1 {
@@ -212,7 +247,7 @@ header {
 
 /*styling for schedule page */
 table{
-	margin:20px auto auto auto ;
+	margin:20px auto 100px auto ;
 	width: 90%;
 	border-collapse: collapse;
 	
@@ -279,7 +314,7 @@ span{
 .post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21
 	{
 	width: 40%;
-	height: 335px;
+	height: 250px;
 	font-size: 14px;
 	
 	}
@@ -292,6 +327,26 @@ span{
 }
 /* styles for screen 480px and lower */
 @media screen and (max-width: 480px){
+	
+	nav {
+	height: 30px;	
+	
+	}	
+	
+nav li {
+	width:60px;
+	text-align:center;
+	margin:0px;
+		
+}
+
+nav a {
+	padding: 10px;
+	width: 60px;
+	font-size: 12px;
+	font-weight:300;
+}
+
 
 /*home page*/
 	header{
@@ -307,8 +362,9 @@ span{
 	{
 
 	width: 140px;
-	height: 215px;
-	font-size: 12px;
+	height: 150px;
+	line-height: 12px;
+	font-size: 8px;
 		
 	}
 
