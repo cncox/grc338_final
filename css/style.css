@@ -5,7 +5,8 @@ body{
 	border-collapse:collapse;
 	display: block;
 	margin: 0px auto;
-	font-family: 'Muli', sans-serif;
+	font-family: 'News Cycle', sans-serif;
+	line-height: 1em;
 	background-image:url(../images/texture_green.png);
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -113,7 +114,6 @@ li {
 	float: left;
 	text-align:center;
 	margin:0px;
-	
 		
 }
 
@@ -195,22 +195,32 @@ header {
 }
 
 .captions_1, .captions_2, .captions_3, .captions_4, .captions_5, .captions_6, .captions_7, .captions_8, .captions_9, .captions_10, .captions_11, .captions_12, .captions_12, .captions_13, .captions_14, .captions_15, .captions_16, .captions_17, .captions_18, .captions_19, .captions_20, .captions_21 {
-	width:75%;
-	height: 50%;
-	font-size: 1.5em;
+	font-size: 1.2em;
+	line-height: 1.25em;
 	opacity: 0;
 	color: black;
  	position: absolute;
- 	top: 25%;
-	left: 15%;
+ 	top: 50%;
+ 	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'News Cycle', sans-serif;
+	text-align: center;
+	width: 75%;
+	height: 55%;
+	padding: 65px 25px;
+	background-color:hsla(0,0%,100%,0.83);
+	
+
 }
 
 .container_1, .container_2, .container_3, .container_4, .container_5, .container_6, .container_7, .container_8, .container_9, .container_10,.container_11, .container_12, .container_13, .container_14, .container_15, .container_16, .container_17, .container_18, .container_19, .container_20, .container_21 {
 	 position: relative;
+	
+	
 }
 
 /*hover for all posts */
-.container_21:hover .blog_photos_21
+/*.container_21:hover .blog_photos_21
 {
   opacity: 0.3;
 }
@@ -222,14 +232,23 @@ header {
 
 div + div:hover  img
 {
-  opacity:.3;
+  opacity:1;
 	z-index: 3;
 }
 
  div + div:hover img + p
 {
-  	opacity:1 ;
+	background-size: cover;
+  	opacity:.7 ;
 	z-index:9;
+}*/
+
+div +img:hover div + div {
+	opacity: 1
+}
+
+div + div:hover img +p {
+	opacity: 1
 }
 
 .post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21 {
@@ -239,6 +258,7 @@ div + div:hover  img
 	width: 30%;
 	max-width: 340px;
 	position: relative;
+
 }
 
 .post_1 {
@@ -278,7 +298,7 @@ figure {
 	display: inline-block;
 	float: left;
 	width: 15%;
-	margin: 15px;
+	margin: 10px;
 }
 figure img {
 	width: 100%
@@ -315,8 +335,15 @@ span{
 	{
 	width: 40%;
 	height: 250px;
-	font-size: 14px;
+	font-size: .7em;
 	
+	}
+	
+	.captions_1, .captions_2, .captions_3, .captions_4, .captions_5, .captions_6, .captions_7, .captions_8, .captions_9, .captions_10, .captions_11, .captions_12, .captions_12, .captions_13, .captions_14, .captions_15, .captions_16, .captions_17, .captions_18, .captions_19, .captions_20, .captions_21 {
+	width: 75%;
+	height: 55%;
+	padding: 40px 20px;
+	background-color:hsla(0,0%,100%,0.83);	
 	}
 	
 	/*schedule page*/
@@ -367,11 +394,22 @@ nav a {
 	font-size: 8px;
 		
 	}
+	
+	.captions_1, .captions_2, .captions_3, .captions_4, .captions_5, .captions_6, .captions_7, .captions_8, .captions_9, .captions_10, .captions_11, .captions_12, .captions_12, .captions_13, .captions_14, .captions_15, .captions_16, .captions_17, .captions_18, .captions_19, .captions_20, .captions_21 {
+	width: 75%;
+	height: 55%;
+	padding: 24px 10px;
+	background-color:hsla(0,0%,100%,0.83);	
+	}
 
 /*roster page*/	
 	figure{
 		width: 30%;
 		margin: 5px;
+	}
+	
+	figcaption {
+	 margin-bottom: 5px;	
 	}
 	
 	
