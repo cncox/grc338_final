@@ -46,10 +46,9 @@ footer{
 .footer_icon_top { /* aligned right*/
 	width:20px;
 	margin: 10px 10px 0px 0px;
-	padding: 0px;
+	padding: 0px 20px 0px 0px;
 	display: block;
 	float:right;
-	
 }
 
 a img {
@@ -75,6 +74,16 @@ p a {
 	text-align: left;
 	color:dimgray;
 	
+}
+
+p + p {
+	width: 40px;
+	margin: 0px;
+	padding-right: 39px;
+	display: inline-block;
+	float: right;
+	font-size: .7em;
+	line-height: 1em;
 }
 /* finish footer editing */
 
@@ -137,8 +146,7 @@ hr {
 	color: hsla(176,94%,14%,1);
 	background-color: hsla(176,94%,14%,1);
 	height: 5px;
-	width: 100%;
-
+	width:100%;
 }
 /* end navigation bar styling */
 
@@ -207,7 +215,7 @@ header {
 	text-align: center;
 	width: 75%;
 	height: 55%;
-	padding: 65px 25px;
+	padding: 60px 25px;
 	background-color:hsla(0,0%,100%,0.83);
 	
 
@@ -216,39 +224,6 @@ header {
 .container_1, .container_2, .container_3, .container_4, .container_5, .container_6, .container_7, .container_8, .container_9, .container_10,.container_11, .container_12, .container_13, .container_14, .container_15, .container_16, .container_17, .container_18, .container_19, .container_20, .container_21 {
 	 position: relative;
 	
-	
-}
-
-/*hover for all posts */
-/*.container_21:hover .blog_photos_21
-{
-  opacity: 0.3;
-}
-
-.container_21:hover .captions_21
-{
-  opacity:1;
-}
-
-div + div:hover  img
-{
-  opacity:1;
-	z-index: 3;
-}
-
- div + div:hover img + p
-{
-	background-size: cover;
-  	opacity:.7 ;
-	z-index:9;
-}*/
-
-div +img:hover div + div {
-	opacity: 1
-}
-
-div + div:hover img +p {
-	opacity: 1
 }
 
 .post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21 {
@@ -259,6 +234,25 @@ div + div:hover img +p {
 	max-width: 340px;
 	position: relative;
 
+}
+
+/*hover for all posts */
+.blog_photos_21:hover .container_21
+{
+  opacity: 1;
+}
+
+.container_21:hover .captions_21
+{
+  opacity:1;
+}
+
+div +img:hover div + div {
+	opacity: 1
+}
+
+div + div:hover img +p {
+	opacity: 1
 }
 
 .post_1 {
@@ -281,7 +275,7 @@ th{
 	padding: 5px;
 }
 td {
-	padding: 5px;
+	padding: 10px;
 }
 tr {
 	background-color: hsla(134,30%,81%,1.00)
@@ -350,6 +344,7 @@ span{
 	
 	td {
 		font-size: 12px;
+		padding: 5px;
 	}
 }
 /* styles for screen 480px and lower */
@@ -382,7 +377,8 @@ nav a {
 	
 /*blog page*/
 .blog{
-		padding: 5px;
+	
+	margin: 10px ;
 	}	
 	
 .post_1, .post_2, .post_3, .post_4, .post_5, .post_6, .post_7, .post_8, .post_9, .post_10, .post_11, .post_12, .post_13, .post_14, .post_15, .post_16, .post_17, .post_18, .post_19, .post_20, .post_21
